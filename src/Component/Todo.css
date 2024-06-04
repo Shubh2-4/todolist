@@ -1,0 +1,67 @@
+.container1 {
+    max-width: 500px; /* Adjust the maximum width of the container as needed */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  input[type="text"] {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between input and button */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color, adjust as needed */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover, adjust as needed */
+  }
+  
+  .outer {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  .outer ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .outer ul li {
+    color: white;
+    padding: 7px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: black;
+  position: relative;
+  
+    }
+
+    .outer ul li span {
+      position: absolute;
+      right: 10px;
+      cursor: pointer;
+    }
